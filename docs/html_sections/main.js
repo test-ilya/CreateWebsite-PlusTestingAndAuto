@@ -27,7 +27,7 @@ async function getUser(){
 getUser();
 
 log_out.addEventListener("click", function(){
-    window.location.href = '/index.html'
+    window.location.href = '/CreateWebsite-PlusTestingAndAuto/index.html'
 });
 
 
