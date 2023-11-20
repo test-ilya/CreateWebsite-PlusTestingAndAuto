@@ -61,7 +61,7 @@ async function joinUser(){
             status_auth.textContent = status_auth_suc
             status_auth.style.color = "green"
             setTimeout(function(){
-                window.location.href = 'CreateWebsite-PlusTestingAndAuto/html_sections/main.html'
+                window.location.href = '/CreateWebsite-PlusTestingAndAuto/html_sections/main.html'
             }, 1000);   
         } else if (data.status != 200) {
             status_auth.textContent = status_auth_error
