@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    font-size: 14px;
+    font-family: Tahoma;
+    color: rgb(100, 100, 100);
+}
+
+body{
+    background-color: rgb(247, 245, 254);
+}
+
+/* ============= Header ================ */
+
+#header{
+    position: relative;
+    height: 50px;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 0px 10px 2px gray;
+    border-bottom-right-radius: 20px;
+    right: 20px;    
+}
+
+#auth_menu{
+    position: fixed;
+    height: 40px;
+    width: 300px;
+    top: 5px;
+    right: 10px;
+    box-shadow: -2px 0px 0px rgb(188, 188, 188);
+    display: flex;
+}
+
+#login_name{
+    position: relative;
+    padding-left: 5px;
+    width: 200px;
+}
+
+#log_out{
+    position: fixed;
+    right: 30px;
+    top: 10px;
+    border: none;
+    border-radius: 10px;
+    color: rgb(128, 128, 128);
+    background-color: rgb(255, 219, 203);
+    padding: 5px 15px 5px 10px;
+    
+}
+
+/* ============== Main ================== */
+
+#main {
+    position: relative;
+    height: 800px;
+    width: 99%;
+    border: solid 1px black;
+    display: flex;
+
+}
+
+/* === Section menu ==== */
+
+#section_menu {
+    position: relative;
+    height: 90%;
+    width: 300px;
+    margin-top: 40px;
+    margin-right: 70px;
+    box-shadow: 0px 0px 7px 2px gray;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    background-color: white;
+    
+}
+
+#section_list{
+
+    margin: 50px 20px 20px 0px;
+    list-style-type: none;
+    line-height: 40px;
+    text-align: center left;
+    cursor: pointer;
+}
+
+#li:hover {
+    color: aqua;
+
+}
+
+li{
+    font-size: 18px;
+    background-color: aqua;
+
+}
+
+/* ===== Section block */
+
+#section_block{
+    position: relative;
+    height: 90%;
+    width: 100%;
+    margin-top: 40px;
+    box-shadow: 0px 0px 7px 2px gray;
+    border-radius: 10px;
+    margin-right: 50px;
+    background-color: white;
+
+}
